@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FlBungee">
+    <output-path>$USER_HOME$/Desktop/Firelight/Bungee/modules</output-path>
+    <root id="archive" name="FlBungee.jar">
+      <element id="module-output" name="FlBungee" />
+    </root>
+  </artifact>
+</component>
