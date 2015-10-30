@@ -32,7 +32,7 @@ public class Staff extends Command {
 
         for (ProxiedPlayer player : ProxyServer.getInstance().getPlayers()) {
             if (player.hasPermission("firelight.staffchat")) {
-                player.sendMessage(new TextComponent(ChatColor.translateAlternateColorCodes('&', "&8[&4StaffChat&8] &b" + sender.getName() + " &8» &c" + msg)));
+                player.sendMessage(new TextComponent(ChatColor.translateAlternateColorCodes('&', "&8[&4StaffChat&8] " + permissions.getRank() + "&b" + sender.getName() + " &8» &c" + msg)));
             }
         }
 
